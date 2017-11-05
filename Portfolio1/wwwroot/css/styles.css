@@ -1,0 +1,69 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    border-radius: 0;
+    padding: 10px;
+}
+.navbar-nav:hover {
+    cursor: pointer;
+}
+
+#home-image {
+    margin: 0;
+    background-image: url("/images/map-bg.jpg");
+    padding: 14%;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+.center-name {
+    color: #ffffff;
+    font-size: 6em;
+    letter-spacing: 5px;
+    background: #BACCE5;
+    opacity: .85;
+    margin: 10px 15% 10px 15%;
+}
+.description {
+    letter-spacing: 4px;
+    border-top: solid 3px #ffffff;
+    border-bottom: solid 3px #ffffff;
+    margin: 8% 30% 3% 30%;
+    padding: 10px;
+    color: #333333;
+}
+.lois-photo {
+    border-radius: 50%;
+}
+.page-title {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 3em;
+}
+.page-body {
+    text-align: center;
+    border: solid 15px #eee1e1;
+    margin: 5%;
+    padding: 5%;
+
+}
+.page-text {
+    padding: 5% 10% 3% 10%;
+    text-align: justify;
+    font-size: 17px;
+}
+.name {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.job-title {
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+address {
+    font-size: 20px;
+}
+
