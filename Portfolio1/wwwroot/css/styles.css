@@ -72,3 +72,28 @@ address {
     font-size: 20px;
 }
 
+
+/*desktop*/
+.menu {
+    width: 25%;
+    float: left;
+}
+.main {
+    width: 75%;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*mobile*/
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+
+
